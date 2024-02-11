@@ -1,0 +1,137 @@
+{"character": {
+  "firstName": "Harry",
+  "lastName": "Potter",
+  "birthday": "July 31, 1980",
+  "house": "Gryffindor",
+  "patronus": "Stag",
+  "wand": "Holly and phoenix feather, 11 inches, reasonably supple",
+  "affiliation": "Order of the Phoenix, Dumbledore's Army"
+},
+"character2": {
+  "firstName": "Hermione",
+  "lastName": "Granger",
+  "birthday": "September 19, 1979",
+  "house": "Gryffindor",
+  "patronus": "Otter",
+  "wand": "Vine wood and dragon heartstring, 10¾ inches, rigid",
+  "affiliation": "Order of the Phoenix, Dumbledore's Army"
+},
+"character3": {
+  "firstName": "Ron",
+  "lastName": "Weasley",
+  "birthday": "March 1, 1980",
+  "house": "Gryffindor",
+  "patronus": "Jack Russell Terrier",
+  "wand": "Willow and unicorn hair, 14 inches, slightly yielding",
+  "affiliation": "Order of the Phoenix, Dumbledore's Army"
+},
+"character4": {
+  "firstName": "Albus",
+  "lastName": "Dumbledore",
+  "birthday": "Summer 1881",
+  "house": "Gryffindor (formerly)",
+  "patronus": "Phoenix",
+  "wand": "Elder wood and Thestral tail hair, 15 inches, slightly springy",
+  "affiliation": "Order of the Phoenix"
+},
+"character5": {
+  "firstName": "Severus",
+  "lastName": "Snape",
+  "birthday": "January 9, 1960",
+  "house": "Slytherin",
+  "patronus": "Doe",
+  "wand": "Yew and phoenix feather, 13½ inches, unyielding",
+  "affiliation": "Death Eaters, Order of the Phoenix (spy)"
+},
+"character6": {
+  "firstName": "Sirius",
+  "lastName": "Black",
+  "birthday": "November 3, 1959",
+  "house": "Gryffindor",
+  "patronus": "Unknown",
+  "wand": "Unknown",
+  "affiliation": "Order of the Phoenix"
+},
+"character7": {
+  "firstName": "Remus",
+  "lastName": "Lupin",
+  "birthday": "March 10, 1960",
+  "house": "Gryffindor",
+  "patronus": "Wolf",
+  "wand": "Cypress and unicorn hair, 10¼ inches, pliable",
+  "affiliation": "Order of the Phoenix"
+},
+"character8": {
+  "firstName": "Minerva",
+  "lastName": "McGonagall",
+  "birthday": "October 4, 1925",
+  "house": "Gryffindor",
+  "patronus": "Cat",
+  "wand": "Fir and dragon heartstring, 9½ inches, stiff",
+  "affiliation": "Hogwarts School of Witchcraft and Wizardry, Order of the Phoenix"
+},
+"character9": {
+  "firstName": "Draco",
+  "lastName": "Malfoy",
+  "birthday": "June 5, 1980",
+  "house": "Slytherin",
+  "patronus": "Unknown",
+  "wand": "Hawthorn and unicorn hair, 10 inches, reasonably springy",
+  "affiliation": "Slytherin House, Death Eaters (indirectly)"
+},
+"character10": {
+  "firstName": "Neville",
+  "lastName": "Longbottom",
+  "birthday": "July 30, 1980",
+  "house": "Gryffindor",
+  "patronus": "Non-corporeal (in the books)",
+  "wand": "Cherry and unicorn hair, 13 inches, slightly springy",
+  "affiliation": "Dumbledore's Army, Order of the Phoenix"
+},
+"character11": {
+  "firstName": "Ginny",
+  "lastName": "Weasley",
+  "birthday": "August 11, 1981",
+  "house": "Gryffindor",
+  "patronus": "Horse",
+  "wand": "Yew and unicorn hair, 9 inches, flexible",
+  "affiliation": "Dumbledore's Army, Order of the Phoenix"
+},
+"character12": {
+  "firstName": "Fred",
+  "lastName": "Weasley",
+  "birthday": "April 1, 1978",
+  "house": "Gryffindor",
+  "patronus": "Unknown",
+  "wand": "Unknown",
+  "affiliation": "Order of the Phoenix"
+},
+"character13": {
+  "firstName": "George",
+  "lastName": "Weasley",
+  "birthday": "April 1, 1978",
+  "house": "Gryffindor",
+  "patronus": "Unknown",
+  "wand": "Unknown",
+  "affiliation": "Order of the Phoenix"
+},
+"character14": {
+  "firstName": "Percy",
+  "lastName": "Weasley",
+  "birthday": "August 22, 1976",
+  "house": "Gryffindor (formerly)",
+  "patronus": "Unknown",
+  "wand": "Unknown",
+  "affiliation": "Ministry of Magic"
+},
+"character15": {
+  "firstName": "Charlie",
+  "lastName":
+
+"Weasley",
+  "birthday": "December 12, 1972",
+  "house": "Gryffindor",
+  "patronus": "Unknown",
+  "wand": "Unknown",
+  "affiliation": "Dragonologist, Romanian Dragon Sanctuary"
+}}

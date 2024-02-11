@@ -1,0 +1,33 @@
+// LOCALHOST
+###
+GET http://localhost:8080/characters
+
+###
+GET http://localhost:8080/characters/65c8675c7ad671c97bb58862
+
+// PRODUCTION Deploy
+###
+GET https://cse341-instructor.herokuapp.com/contacts
+###
+GET https://cse341-instructor.herokuapp.com/contacts/622023f642f9ab4cd6e060b2
+###
+GET https://cse341-instructor.herokuapp.com/contacts/622023f642f9ab4cd6e060b3
+###
+GET https://cse341-instructor.herokuapp.com/contacts/622023f642f9ab4cd6e060b4
+
+// CREATE CHARACTER
+###
+POST http://localhost:8080/characters HTTP/1.1 
+Content-Type: application/json
+
+// UPDATE CHARACTER
+# needs id
+###
+PUT http://localhost:8080/characters/
+Content-Type: application/json
+
+
+// DELETE CHARACTER
+# needs id
+###
+DELETE http://localhost:8080/characters/
