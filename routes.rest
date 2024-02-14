@@ -23,9 +23,17 @@ Content-Type: application/json
 // UPDATE CHARACTER
 # needs id
 ###
-PUT http://localhost:8080/characters/
+PUT http://localhost:8080/updateCharacter/65cbce04032637b977abb733
 Content-Type: application/json
-
+{
+    "firstName": "Harry James",
+    "lastName": "any",
+    "birthday": "any",
+    "house": "any",
+    "patronus": "any",
+    "wand": "any",
+    "affiliation": "any"
+}
 
 // DELETE CHARACTER
 # needs id
