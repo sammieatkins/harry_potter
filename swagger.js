@@ -6,7 +6,7 @@ const doc = {
     title: 'My API',
     description: 'Description'
   },
-  host: 'web-services2.onrender.com',
+  host: 'harry-potter-72ok.onrender.com',
   schemes: ['https']
 };
 // change to https for render
