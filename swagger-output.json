@@ -11,7 +11,17 @@
     "https"
   ],
   "paths": {
-    "/characters": {
+    "/api-docs": {
+      "get": {
+        "description": "",
+        "responses": {
+          "default": {
+            "description": ""
+          }
+        }
+      }
+    },
+    "/characters/characters": {
       "get": {
         "description": "",
         "produces": [
@@ -24,7 +34,7 @@
         }
       }
     },
-    "/getSingle/{id}": {
+    "/characters/getSingle/{id}": {
       "get": {
         "description": "",
         "produces": [
@@ -45,7 +55,7 @@
         }
       }
     },
-    "/newCharacter": {
+    "/characters/newCharacter": {
       "post": {
         "description": "",
         "parameters": [
@@ -90,7 +100,7 @@
         }
       }
     },
-    "/updateCharacter/{id}": {
+    "/characters/updateCharacter/{id}": {
       "put": {
         "description": "",
         "parameters": [
@@ -144,7 +154,7 @@
         }
       }
     },
-    "/deleteCharacter/{id}": {
+    "/characters/deleteCharacter/{id}": {
       "delete": {
         "description": "",
         "parameters": [
