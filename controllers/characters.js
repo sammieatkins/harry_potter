@@ -15,7 +15,7 @@ const getSingle = async (req, res, next) => {
   const result = await mongodb
     .getDb()
     .db()
-    .collection("characters")
+    .collection("characters") 
     .find({ _id: userId });
   result.toArray().then((lists) => {
     res.setHeader("Content-Type", "application/json");
