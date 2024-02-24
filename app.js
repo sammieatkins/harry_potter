@@ -10,17 +10,25 @@ const app = express();
 const swaggerUi = require('swagger-ui-express');
 const swaggerDocument = require('./swagger-output.json');
 
+// Middleware
 app
   .use(bodyParser.json())
+  .use(express.json())
   .use((req, res, next) => {
     res.setHeader('Access-Control-Allow-Origin', '*');
     next();
-    res.send(req.oidc.isAuthenticated() ? 'Logged in' : 'Logged out'); // idk if this goes here
   })
+  .use(auth(config));
+
+// Routes
+app
   .use('/', require('./routes'))
-  .use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocument))
-  .use(auth(config))
-  .use(express.json());  
+  .use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocument));
+
+// req.isAuthenticated is provided from the auth router
+app.get('/', (req, res) => {
+  res.send(req.oidc.isAuthenticated() ? 'Logged in' : 'Logged out');
+});
 
 mongodb.initDb((err, mongodb) => {
   if (err) {
@@ -30,5 +38,3 @@ mongodb.initDb((err, mongodb) => {
     console.log(`Connected to DB and listening on ${port}`);
   }
 });
-
-// Middleware
